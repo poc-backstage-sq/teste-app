@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste-app
+  title: teste-app
+  annotations:
+    github.com/project-slug: poc-backstage-sq/teste-app
+    backstage.io/kubernetes-id: teste-app
+  tags:
+    # - spring-boot
+    # - java
+    # - maven
+    # - github-actions
+    # - renovate
+    # #- sonarqube
+spec:
+  type: service
+  owner: sq
+  lifecycle: experimental
